@@ -145,7 +145,7 @@ function App() {
 
   return (
     <div style={{width:400}}>
-    <div className='p-5 w-full min-h-screen  cursor-pointer grid gap-0 grid-cols-4  ' >
+    <div className='p-5 w-full min-h-screen lg:cursor-pointer grid gap-0 grid-cols-4  ' >
       <div className={"rounded-t-xl flex flex-col items-end justify-around bg-opacity-75 bg-black col-span-4 row-span-2 "}>
         <div className='text-gray-100 text-xl px-2 break-words break-all '>{formatOperand(prevOperand)} {operator}</div>
         <div className='text-white text-4xl px-2 break-words break-all '>{formatOperand(currentOperand)}</div>
